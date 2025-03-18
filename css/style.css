@@ -1,0 +1,259 @@
+body {
+    background-color: rgb(138, 138, 245);
+}
+
+#main-nav {
+    overflow: hidden;
+}
+  
+#navbar-container {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#header { 
+    margin-bottom: 30px;
+}
+  
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+  
+#main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    display: block;
+}
+  
+#main-nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+}
+  
+#main-nav ul li a:hover {
+    background-color: rgb(82, 82, 219);
+    color: #fff;
+}
+
+#onpage a {
+    background-color: rgb(82, 82, 219);
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+
+#page-wrapper {
+    width: 70%;
+    margin: 30px auto 60px auto;
+}
+
+#content-wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 50px 100px 50px;
+}
+
+footer {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    margin: 50px auto 70px auto;
+}
+
+h3 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#curriculo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+#info-esquerda {
+    flex: 1;
+}
+
+#info-direita {
+    flex: 1;
+    text-align: center;
+}
+
+#info-direita .imageCurriculo {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.book-text {
+    flex: 1;
+    line-height: 2.5;
+}
+
+.book-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.book-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.imageBigTechs {
+    display: block;
+    max-width: 80%;  
+    height: auto;    
+    margin: 30px auto; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.linkSite{
+    margin-top: 50px;
+}
+
+
+@media (min-width: 480px) {
+    body {
+        background-color: rgb(118, 118, 235);
+    }
+
+    #page-wrapper {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #content-wrapper {
+        padding: 15px 30px 50px 30px;
+    }
+
+    .video-container iframe {
+        width: 90%;
+    }
+
+    .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #curriculo-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    #info-esquerda {
+        text-align: center;
+    }
+
+    #info-direita img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(98, 98, 225);
+    }
+
+    #page-wrapper {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    #content-wrapper {
+        padding: 20px 40px 80px 40px;
+    }
+
+    .video-container iframe {
+        width: 70%;
+    }
+
+    .book-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #curriculo-container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    #info-esquerda {
+        text-align: left;
+    }
+
+    .imageBigTechs {
+        max-width: 90%; 
+    }
+}
+
+#wrapper {
+    width: 850px;
+    height: 600px;
+    background-color: rgb(15, 183, 107);
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#canvas {
+    width: 700px;
+    height: 500px;
+    background-color: #ccc;
+    margin: 30px auto;
+}
