@@ -57,6 +57,7 @@ function init(){
 
 google.maps.event.addDomListener(window, 'load', init);
 
+/*
 document.addEventListener("DOMContentLoaded", function () {
     let imagens = document.querySelectorAll(".slider img");
     let indice = 0;
@@ -72,6 +73,4 @@ document.addEventListener("DOMContentLoaded", function () {
         indice = (indice < imagens.length - 1) ? indice + 1 : 0;
         imagens[indice].classList.add("active");
     };
-});
-
-
+});*/
